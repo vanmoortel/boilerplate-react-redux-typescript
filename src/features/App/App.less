@@ -1,0 +1,19 @@
+@import "src/utils/responsivity";
+@import "src/utils/shorthand";
+
+.content-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-main {
+  width: 640px;
+  height: 640px;
+  max-height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .lg({
+    width: 460px;
+  });
+}
